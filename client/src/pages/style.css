@@ -1,0 +1,117 @@
+/* ----------------------------------- PROFILE CSS ---- */
+h1 {
+  padding-top: 50px;
+}
+h3 {
+  padding-bottom: 30px;
+}
+h5 {
+  padding: 25px 0px;
+}
+.removeh5padding {
+  padding: 10px;
+}
+.hr {
+  border: 5px solid #34847e;
+  border-radius: 10px;
+}
+
+a:hover {
+  color: #a9bcc3 !important;
+  transition: all 0.3s;
+}
+.profile-flex-box {
+  display: flex;
+}
+.chart {
+  width: 200px;
+  height: auto;
+}
+.content {
+  height: 100vh;
+  background-color: #f9fafd;
+}
+.sidebar {
+  min-height: -webkit-fill-available;
+  background-color: #363840;
+  height: 100%;
+  color: #98999e;
+}
+.graph-size {
+  image-orientation: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo-size {
+  width: 150px;
+  height: auto;
+  padding-top: 30px;
+}
+
+.loan-stats-spacing {
+  margin-top: 60px !important;
+}
+
+.payment-button {
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: #34847e;
+  color: #f9fafd;
+}
+.payment-button:hover {
+  background-color: #407688;
+  color: #a9bcc3;
+  transition: all 0.3s;
+}
+
+/* ----------------------------------- END OF PROFILE CSS ---- */
+
+/* ----------------------------------- END OF PAYMENTS PAGE CSS ---- */
+
+.sidebar-payments {
+  background-color: #363840;
+  height: 100vh;
+  padding: 30px 10px 10px 10px;
+}
+.sb-payments-h1 {
+  color: #f9fafd;
+  padding-bottom: 10px;
+}
+.sb-payments-ptag {
+  color: #a9bcc3;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .sidebar-payments {
+    height: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+/* ----------------------------------- END OF PAYMENTS PAGE CSS ---- */
+
+/* ----------------------------------- START OF LOGIN and REGISTER CSS ---- */
+/* .btn-success {
+  text-align: center;
+  background-color: violet !;
+  float: none !important;
+} */
+
+.form-control {
+  /* justify-content: center;
+  align-items: center;
+  justify-content: center !important; */
+  width: 75% !important;
+}
+form {
+  margin: 0 auto !important;
+  text-align: -webkit-center;
+}
+
+.form-group {
+  justify-content: center;
+}

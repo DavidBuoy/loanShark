@@ -1,16 +1,17 @@
-import React from "react";
-import "./style.css";
-
-// This file exports both the List and ListItem components
+import React from 'react';
 
 export function List({ children }) {
-  return (
-    <div className="list-overflow-container">
-      <ul className="list-group">{children}</ul>
-    </div>
-  );
-}
+    return (
+      <div className="list-overflow-container">
+        <ul className="list-group">{children}</ul>
+      </div>
+    );
+  }
+  
+  export function ListItem({ children }, props) {
+    return <li className="list-group-item" {...props} role="button">{children}</li>;
+  }
 
-export function ListItem({ children }) {
-  return <li className="list-group-item">{children}</li>;
-}
+// loan blocks, each containing a loan total amount, name, remaining balance, small thumbnail chart and a 'view detail' button
+
+// include a delete loan button here?

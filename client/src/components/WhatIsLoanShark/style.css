@@ -1,0 +1,132 @@
+/* Typography imported from Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro:200,400");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+h3 {
+  padding-top: 20px;
+}
+
+p,
+a {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.text-header-homepage {
+  margin: 2rem 4rem;
+}
+.text-homepage {
+  margin: 2rem 7rem;
+}
+.margin {
+  margin: 6rem 0rem;
+}
+/* Generic styles */
+
+.footer-button {
+  background-color: #34847e;
+  text-decoration: none;
+  color: white;
+  border-radius: 0.25rem;
+  text-align: center;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+  color: #e2e2e2;
+}
+.card-body {
+  background-color: #1a5260;
+}
+
+.cards {
+  padding: 2rem;
+}
+
+.cards > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.cards > ul > li {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+}
+
+.cards > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+
+.cards > ul > li > figure > img {
+  width: 100%;
+}
+
+.cards > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.cards > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+.sub-header {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+.cards > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 2rem;
+  color: #e2e2e2;
+  margin: 0;
+}
+
+/* FOE FOOTER */
+
+/* Styles for the hero image */
+.footer {
+  /* Photo by mnm.all on Unsplash */
+  /* background: url('https://images.unsplash.com/photo-1548032885-b5e38734688a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=607&q=80') center; */
+  background-color: #1a5260;
+  background-size: cover;
+  padding: 4rem 2rem;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  border-bottom: solid 20px #34847e;
+}
+
+.footer > * {
+  color: white;
+}
+
+.footer > h1 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.footer > article > p {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.footer > article > a {
+  padding: 1rem;
+  margin-top: 0.75rem;
+}
